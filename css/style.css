@@ -732,3 +732,42 @@ footer {
     color: #000000;
     z-index: 9999;
 }
+/* MODO DE ALTO CONTRASTE */
+
+.alto-contraste {
+    background: #000000;
+    color: #ffffff;
+}
+
+.alto-contraste header,
+.alto-contraste main,
+.alto-contraste section,
+.alto-contraste article,
+.alto-contraste footer,
+.alto-contraste fieldset {
+    background: #000000;
+    color: #ffffff;
+}
+
+.alto-contraste a {
+    color: #ffff00;
+}
+
+.alto-contraste button {
+    background: #ffffff;
+    color: #000000;
+    border: 2px solid #ffffff;
+}
+
+.alto-contraste input,
+.alto-contraste textarea,
+.alto-contraste select {
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.alto-contraste *:focus-visible {
+    outline: 3px solid #ffff00;
+    outline-offset: 3px;
+}

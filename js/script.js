@@ -200,3 +200,32 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+const botaoContraste = document.getElementById("contraste-btn");
+
+if (botaoContraste) {
+    botaoContraste.addEventListener("click", function () {
+
+        document.body.classList.toggle("alto-contraste");
+
+        const ativado =
+            document.body.classList.contains("alto-contraste");
+
+        botaoContraste.setAttribute(
+            "aria-pressed",
+            ativado
+        );
+
+        localStorage.setItem(
+            "altoContraste",
+            ativado
+        );
+    });
+
+    const contrasteSalvo =
+        localStorage.getItem("altoContraste");
+
+    if (contrasteSalvo === "true") {
+        document.body.classList.add("alto-contraste");
+        botaoContraste.setAttribute("aria-pressed", "true");
+    }
+}
