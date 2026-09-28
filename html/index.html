@@ -13,40 +13,29 @@
 
 <body>
 
-    <header>
+   <header>
 
-        <h1>Instituto Vida Nova</h1>
+    <h1>Instituto Vida Nova</h1>
 
-        <input type="checkbox" id="menu-toggle">
+    <input type="checkbox" id="menu-toggle">
 
-        <label for="menu-toggle" class="menu-icon">
-            ☰
-        </label>
+    <label
+        for="menu-toggle"
+        class="menu-icon"
+        aria-label="Abrir ou fechar menu de navegação">
+        ☰
+    </label>
 
-        <nav>
-            <a href="index.html"
-               data-pagina="inicio">
-                Início
-            </a>
+    <nav aria-label="Navegação principal">
 
-            <a href="projetos.html"
-               data-pagina="projetos">
-                Projetos
-            </a>
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="cadastro.html">Seja Voluntário</a>
+        <a href="contatos.html">Contato</a>
 
-            <a href="cadastro.html"
-               data-pagina="cadastro">
-                Seja Voluntário
-            </a>
+    </nav>
 
-            <a href="contatos.html"
-               data-pagina="contato">
-                Contato
-            </a>
-            
-        </nav>
-
-    </header>
+</header>
 
 
     <main id="conteudo">
