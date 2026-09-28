@@ -228,4 +228,4 @@ if (botaoContraste) {
         document.body.classList.add("alto-contraste");
         botaoContraste.setAttribute("aria-pressed", "true");
     }
-}
+}   
