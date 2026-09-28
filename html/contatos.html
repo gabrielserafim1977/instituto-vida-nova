@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato - Instituto Vida Nova</title>
+
+    <link rel="icon" type="image/png" href="../imagens/faviconsite.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Instituto Vida Nova</h1>
+
+        <input type="checkbox" id="menu-toggle">
+
+        <label for="menu-toggle" class="menu-icon">
+            ☰
+        </label>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="cadastro.html">Seja Voluntário</a>
+            <a href="contatos.html">Contato</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section>
+
+            <h2>Entre em Contato</h2>
+
+            <p>
+                Ficou com alguma dúvida, quer fazer uma doação
+                ou deseja saber mais sobre o Instituto Vida Nova?
+                Entre em contato conosco pelos canais abaixo.
+            </p>
+
+        </section>
+
+
+        <section>
+
+            <h2>Nossos Canais</h2>
+
+            <address>
+
+                <p>
+                    <strong>E-mail:</strong>
+
+                    <a href="mailto:contato@institutovidanova.org">
+                        contato@institutovidanova.org
+                    </a>
+                </p>
+
+
+                <p>
+                    <strong>Telefone:</strong>
+
+                    <a href="tel:+5588999999999">
+                        (88) 99999-9999
+                    </a>
+                </p>
+
+
+                <p>
+                    <strong>Endereço:</strong>
+                    Rua das Flores, 123 - Juazeiro do Norte/CE
+                </p>
+
+            </address>
+
+        </section>
+
+
+        <section>
+
+            <h2>Envie uma Mensagem</h2>
+
+            <form id="formContato">
+
+                <fieldset>
+
+                    <legend>Dados para contato</legend>
+
+
+                    <label for="nome">
+                        Nome:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        required>
+
+
+                    <label for="email">
+                        E-mail:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+
+
+                    <label for="assunto">
+                        Assunto:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="assunto"
+                        name="assunto"
+                        required>
+
+
+                    <label for="mensagem">
+                        Mensagem:
+                    </label>
+
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="6"
+                        required></textarea>
+
+                </fieldset>
+
+
+                <button type="submit">
+                    Enviar Mensagem
+                </button>
+
+            </form>
+
+
+            <div id="mensagem-feedback"></div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 Instituto Vida Nova -
+            Todos os direitos reservados a Gabriel Serafim.
+        </p>
+
+    </footer>
+
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
